@@ -53,7 +53,7 @@ export const StyledToolbar = styled('div') `
     margin-right: 16px;
     background: #fafafa;
     color: #212121;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     font-weight: bold;
   }

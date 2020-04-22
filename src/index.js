@@ -15,7 +15,7 @@ import App from "./components/App";
 // Replace `YOUR_API_KEY` here with the API key you received when
 // signing up for SimpleWebRTC
 // --------------------------------------------------------------------
-const API_KEY = 'YOUR_API_KEY';
+const API_KEY = '798509320e50c6124cf86e7d';
 // ====================================================================
 
 

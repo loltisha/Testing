@@ -101,7 +101,7 @@ const App = ({ configUrl, userData, roomName, roomPassword }) => (
           return (
             <StyledUIContainer>
               <StyledToolbar>
-                <h1>{room.providedName}</h1>
+                <h1>Taqarub</h1>
                 <div>
                   <span>{peers.length} Peer{peers.length !== 1 ? 's' : ''}</span>
                   <PeerList room={room.address} speaking render={({ peers }) => {
