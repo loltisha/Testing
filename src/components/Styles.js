@@ -36,8 +36,8 @@ export const StyledToolbar = styled('div') `
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 56px;
-  background: #00b0e9;
+  height: 80px;
+  background: #9d00e97a;
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
   z-index: 1;
@@ -50,12 +50,28 @@ export const StyledToolbar = styled('div') `
   }
 
   & button {
-    margin-right: 16px;
-    background: #fafafa;
-    color: #212121;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
+    // background-color: white;
+    // color: black;
+    // border: 2px solid #e7e7e7;
+    // padding: 15px 15px;
+    // text-align: center;
+    // display: inline-block;
+    // font-size: 16px;
+    // margin: 4px 12px;
+    // cursor: pointer;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 30px
   }
 
   & .display-name-editor {

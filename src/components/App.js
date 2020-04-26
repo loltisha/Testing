@@ -1,6 +1,5 @@
 import React from 'react';
 import ContentEditable from 'react-contenteditable';
-
 import {
   Provider,
   Connected,
@@ -35,6 +34,7 @@ import {
   StyledMainContainer,
   StyledChatListContainer
 } from './Styles';
+// import logoo from './logo2.png';
 
 
 const App = ({ configUrl, userData, roomName, roomPassword }) => (
@@ -101,7 +101,11 @@ const App = ({ configUrl, userData, roomName, roomPassword }) => (
           return (
             <StyledUIContainer>
               <StyledToolbar>
-                <h1>Taqarub</h1>
+                {/* <h1>Taqarub</h1> */}
+               <img src="https://img.techpowerup.org/200426/logo2.png" width="150" height="150"alt="logo"/> 
+                
+                {/* <a  href="#"><img src={logoo} width="100" height="100" alt="ferasah"/></a> */}
+
                 <div>
                   <span>{peers.length} Peer{peers.length !== 1 ? 's' : ''}</span>
                   <PeerList room={room.address} speaking render={({ peers }) => {
